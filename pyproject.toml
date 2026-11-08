@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-haywire"
+version = "0.1.0"
+description = "Placeholder nodes and a workflow exchange so haywire can run ComfyUI workflows"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--import-mode=importlib"
